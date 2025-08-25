@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 630px;
+    height: 700px;
+    align-self: center;
+    
+}
+.headerPart h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(244, 255, 255);
+    font-weight: 900;
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 10px;
+    text-shadow: 0 0 20px rgba(5, 7, 14, 1);
+    transition: all 0.5s ease-in-out; 
+    white-space: nowrap;
+}
+h1:hover{
+    transform: scale(1.0);
+    text-shadow: 0 0 40px cyan;
+}
+.headerPart{
+    flex: 1;
+    background-color:#6943ff;
+    height: 350px;
+    padding: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    border-radius: 5px;
+
+}
+#conversion {
+    flex: 2; 
+}
+
+.headerPart div{
+    width: 150px;
+    height: 80px;
+    background-color: aliceblue;
+    border-radius: 8px;
+    border: 0.5px solid rgb(133, 125, 125);
+    padding: 3px;
+      width: min(200px, 90%);
+}
+
+.headerPart div input{
+    width: 100%;
+    height: 100%;
+     background-color:#6943ff ;
+    border: none;
+    font-size: 3.5rem;
+    text-align: center;
+    color: aliceblue;
+    font-size: 3.5rem;
+}
+
+.headerPart button{
+    padding: 8px 19px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(146, 141, 141);
+    transition: all ease 0.5s;
+
+}
+
+.headerPart button:hover{
+    color: #6943ff;
+}
+#conversion {
+    width: 100%;
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 36px 25px;
+    margin: 0px;
+    background-color: #1F2937; 
+    color: #CCC1FF;
+    font-family: 'Inter', sans-serif;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    flex-grow: 10; 
+}
+
+#conversion > div {
+    width: 100%;
+    max-width: 600px;
+    background-color: #273549;
+    text-align: center;
+    padding: 31px;
+    margin-bottom: 24px;
+    border-radius: 5px;
+    
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Remove margin from the last card for spacing consistency */
+#conversion > div:last-of-type {
+    margin-bottom: 0;
+}
+
+/* Add a subtle hover effect to the cards */
+#conversion > div:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for the unit titles (e.g., "Length (Meter/Feet)") */
+#conversion h3 {
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin: 0 0 9px 0; /* Top Right Bottom Left */
+    color: #CCC1FF;
+}
+
+/* Style for the conversion result paragraphs */
+#conversion p {
+    font-weight: 400;
+    font-size: 0.95rem;
+    margin: 0;
+    color: #FFFFFF;
+    line-height: 1.6;
+}

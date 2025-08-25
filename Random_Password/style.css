@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+body{
+
+    background-color: rgb(10, 16, 48);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.headers h1{
+    font-size: 40px;
+    display: block;
+    color: aliceblue;
+    
+}
+
+.headers h1 span{
+    color: rgb(19, 172, 19);
+    display: block;
+    font-weight: 900;
+   
+}
+
+h5{
+    color: rgb(87, 92, 99);
+    margin-top: 20px;
+    font-weight: 900;
+    font-size: 20px;
+  
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+.btn1{
+    padding: 10px;
+    border-radius: 6px;
+    color: rgb(79, 85, 84);
+    background-color: rgb(74, 206, 107);
+    font-weight: 900;
+     margin: 40px 230px 0px 0px;
+}
+hr {
+    border: 2px solid black;
+    width: 40%;
+    margin: 30px auto;  
+}
+.result{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+
+}
+.result1{
+    background-color: rgb(181, 179, 201);
+    width: 100px;
+    height: 20px;
+    border-radius: 5px;
+    border: 2px solid white;
+
+}
+.result2{
+    background-color: rgb(181, 179, 201);
+    width: 100px;
+    height: 20px;
+    border-radius: 5px;
+    border: 2px solid white;
+
+}
+.result1, .result2 {
+    margin: 0 10px; 
+}
+p{
+    color: green ;
+}
