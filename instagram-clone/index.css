@@ -1,0 +1,80 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid black;
+}
+
+.title .logo{
+    width: 120px;
+    margin-left: 15px;
+
+}
+
+.title .profile{
+    width: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.header-part {
+    display: flex;
+    padding: 10px;
+}
+.header-part p{
+    display: block;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+.header-part span{
+    display: block;
+    font-weight: 100;
+}
+.header-part img{
+    width: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+    margin: 20px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.post .icon{
+    display: flex;
+}
+
+.post .icon img{
+    width: 50px;
+    margin: 15px;
+    padding-top: 20px;
+     filter: contrast(120%) saturate(150%);
+    
+}
+
+/* Likes count */
+.likes {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.post p {
+    margin: 0 20px 10px 20px;
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+.post p span {
+    font-weight: 700;
+    margin-right: 5px;
+}
